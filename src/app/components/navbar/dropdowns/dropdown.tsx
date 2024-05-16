@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react'
-import dropdownStyling from './dropdown.module.css';
+import dropdownStyling from './Dropdown.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 

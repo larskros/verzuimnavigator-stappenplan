@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
-import navbar from './navbar.module.css';
-import Dropdown from './dropdowns/dropdown';
+import React from 'react';
+import navbar from './Navbar.module.css';
+import Dropdown from './Dropdowns/Dropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
@@ -12,7 +12,7 @@ export default function Navbar(){
         <>
         <div className={navbar.Navbar}>
             <div className={navbar.NavbarLeft}>
-                <a href="./Verzuimnavigator Logo.svg"><img src="" alt="" /></a>
+                <a href=""><img src="../Verzuimnavigator Logo.svg" alt="" /></a>
                 <Dropdown MenuTitle='Wat moet u weten?' MenuItem1='Voldoen aan de wet' MenuItem2='Gezondheid bevorderen' MenuItem3='Arbeidsrisico verminderen' />
             </div>
             <div className={navbar.NavbarRight}>
