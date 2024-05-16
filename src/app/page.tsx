@@ -6,10 +6,11 @@ import Footer from "./components/footer/footer";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.empty}></div>
+    <>
+      <Navbar />
+      {/* <div className={styles.empty}></div> */}
       <Footer />
 
-    </main>
+    </>
   );
 }
