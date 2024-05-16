@@ -1,0 +1,29 @@
+.Dropdown {
+    padding: 0 16px;
+}
+
+.DropdownMenu {
+    background-color: green;
+}
+
+.OpenDropdown {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: #ececec;
+    padding: 4px 0;
+}
+.HideDropDown {
+    display: none;
+}
+.OpenDropdown a {
+    padding: 6px 10px;
+}
+.OpenDropdown a:hover {
+    opacity: .5;
+}
+
+.FaIcons {
+    width: 16px;
+    margin-left: 5px;
+}
