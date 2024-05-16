@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: calc(100% - 30px);
+    height: 300px;
+    gap: 30px;
+}
+
+.ZiekeMedewerker{
+    flex:1;
+}
+
+.ZiekeMedewerker span{
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.ZiekeMedewerker p{
+    padding-right:150px;
+    padding-top: 25px;
+}
+
+.ZiekeMedewerker h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.FaIcons {
+    width: 10px;
+}
+
+.titles p{
+    padding-right: 40px;
+    padding-top: 25px;
+}
