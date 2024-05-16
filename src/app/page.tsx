@@ -1,17 +1,15 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import navbar from "./components/navbar/navbar.module.css";
 import Navbar from "./components/navbar/navbar";
+import Footer from "./components/footer/footer";
+
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Navbar />
-      <div className={styles.description}>
-        <p>
-          Verzuimnavigator
-        </p>
-      </div>
+      <div className={styles.empty}></div>
+      <Footer />
+
     </main>
   );
 }

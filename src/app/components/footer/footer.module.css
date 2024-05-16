@@ -1,0 +1,64 @@
+.FooterContent {
+    display: flex;
+}
+
+.FooterSection {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px 120px 0px;
+}
+
+.FooterContent h3 {
+    font-size: 18px;
+
+}
+
+.FooterSection a{
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.FooterSection img {
+    width: 116px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.Line {
+    left: 0;
+    margin-inline: auto;
+    width: 100vw;
+}
+
+.InputField {
+    border: 0;
+    padding-top: 10px;
+    width: 100%;
+    font-family: montserrat;
+}
+
+.InputField:hover {
+    border: 0;
+    padding-top: 10px;
+}
+
+.InputField:focus-visible {
+    border: none;
+    outline: none;
+    padding-top: 10px;
+}
+
+.InputFieldButton {
+    border: 0;
+    margin-top: 10px;
+    padding: 8px 30px 8px 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-family: montserrat;
+    cursor: pointer;
+}
+
