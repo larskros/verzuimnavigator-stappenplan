@@ -1,3 +1,39 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.Navbar a {
+    font-weight: 600;
+}
+.Navbar a:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+.NavbarLeft {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.NavbarRight {
+    display: flex;
+    align-items: center;
+}
+
+.NavbarRight > a {
+    padding: 0 16px;
+}
+
+.Dropdown {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .FaIcons {
-    width: 20px;
+    width: 16px;
 }
