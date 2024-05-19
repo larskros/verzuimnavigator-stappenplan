@@ -1,11 +1,11 @@
 import React from 'react';
 import stepindicatoritem from './StepIndicatorItem.module.css';
 
-const StepIndicatorItem = (props:{StepName: string}) => {
+const StepIndicatorItem = (props:{ClassName: String; StepName: String;}) => {
   return (
     <>
         <div className={stepindicatoritem.StepIndicatorItemContainer}>
-            <div className={stepindicatoritem.StepIndicatorItem}>{props.StepName}</div>
+            <div className={`${stepindicatoritem.StepIndicatorItem} ${props.ClassName}`}>{props.StepName}</div>
         </div>
     </>
   )

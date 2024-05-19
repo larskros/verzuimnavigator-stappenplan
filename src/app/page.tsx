@@ -9,7 +9,9 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <StepIndicator />
+      <div className="RoadmapContainer">
+        <StepIndicator />
+      </div>
       {/* <div className={styles.empty}></div> */}
       <Footer />
 

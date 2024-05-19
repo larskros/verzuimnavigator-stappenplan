@@ -60,3 +60,13 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+
+.FirstStepIndicatorBar {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.ActiveStep {
+  background-color: black !important;
+}
