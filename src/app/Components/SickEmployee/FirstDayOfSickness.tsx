@@ -9,7 +9,7 @@ import { faCalendar } from '@fortawesome/free-solid-svg-icons';
 
 export default function FirstDayOfSickness() {
 
-  const [startDate, setStartDate] = useState(null);
+  const [startDate, setStartDate] = useState<Date | null>(null);
 
   return (
     <>
