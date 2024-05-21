@@ -1,6 +1,6 @@
 import React from 'react';
-import navbar from './Navbars.module.css';
-import Dropdown from './Dropdownss/Dropdowns';
+import navbar from './Navbar.module.css';
+import Dropdown from './Dropdown/Dropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
