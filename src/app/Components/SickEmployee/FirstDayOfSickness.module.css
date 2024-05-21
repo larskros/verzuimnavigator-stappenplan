@@ -1,0 +1,44 @@
+.DateInputLabel {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.DateInput {
+    background-color: #D9D9D9;
+    width: 100%;
+    padding: 10px 12px 10px 16px;
+    font-size: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.DateInput input {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.DateInput input:focus-visible{
+    border: none;
+    outline: none;
+}
+
+.CalendarIcon {
+    background-color: black;
+    padding: 4px 14px;
+    border-radius: 20px;
+    position: absolute;
+    right: 10px;
+    z-index: 0;
+}
+.CalendarIcon svg {
+    width: 14px;
+    color: white;
+}

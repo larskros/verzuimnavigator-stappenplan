@@ -1,0 +1,18 @@
+.StepIndicatorItemContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+}
+
+.StepIndicatorItem {
+    padding: 12px 0;
+    background-color: #A7A7A7;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    max-width: 112px;
+    width: 112px;
+    display: flex;
+    justify-content: center;
+}

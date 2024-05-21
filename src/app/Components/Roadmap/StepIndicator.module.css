@@ -1,0 +1,11 @@
+.StepIndicatorWrapper {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ArrowIcon {
+    font-size: 60px;
+    color: #A7A7A7;
+}

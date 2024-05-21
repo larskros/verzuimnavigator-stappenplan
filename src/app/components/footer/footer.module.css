@@ -1,0 +1,75 @@
+.FooterContent {
+    display: flex;
+}
+
+.FooterSection {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px 120px 0px;
+}
+
+.FooterContent h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.FooterSection p {
+    font-weight: 500;
+}
+
+.FooterSection a{
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.FooterSection a:hover {
+    opacity: .5;
+}
+
+.FooterSection img {
+    width: 116px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.Line {
+    left: 0;
+    margin-inline: auto;
+    width: 100vw;
+}
+
+.InputField {
+    border: 0;
+    padding-top: 10px;
+    width: 100%;
+    font-family: montserrat;
+    font-size: 16px;
+}
+
+.InputField:hover {
+    border: 0;
+    padding-top: 10px;
+}
+
+.InputField:focus-visible {
+    border: none;
+    outline: none;
+    padding-top: 10px;
+}
+
+.InputFieldButton {
+    border: 0;
+    margin-top: 10px;
+    padding: 8px 30px 8px 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-family: montserrat;
+    cursor: pointer;
+    font-size: 16px;
+}
+
