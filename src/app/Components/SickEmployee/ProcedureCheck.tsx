@@ -9,12 +9,10 @@ function ProcedureCheck(props: any) {
         <label>
             <input type="radio" className={styles.InputField} value="Ja" checked={props.selectedOptionProcedure === 'Ja'} onChange={props.handleChangeProcedure} />
             Ja
-            <FontAwesomeIcon icon={faInfoCircle} size='xs' className={styles.InfoIcon} />
         </label>
         <label>
             <input type="radio" className={styles.InputField} value="Nee" checked={props.selectedOptionProcedure === 'Nee'} onChange={props.handleChangeProcedure} />
             Nee
-            <FontAwesomeIcon icon={faInfoCircle} size='xs' className={styles.InfoIcon} />
         </label>
     </div>
   )
