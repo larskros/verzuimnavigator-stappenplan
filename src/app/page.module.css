@@ -19,3 +19,7 @@
 .ContentSectionRight {
     flex: 1;
 }
+
+.RoadmapContainer {
+    display: flex;
+}

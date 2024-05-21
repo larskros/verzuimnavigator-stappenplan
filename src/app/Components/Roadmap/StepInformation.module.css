@@ -1,0 +1,36 @@
+.test {
+    width: 100px;
+    height: 87px;
+}
+
+.Info {
+    /* height: 80px; */
+    display: flex;
+    align-items: center;
+    /* border-top: 1px solid;
+    border-bottom: 1px solid; */
+    margin-left: 20px;
+}
+
+.FoldButton {
+    display: flex;
+    align-items: center;
+    padding: 10px 21px 10px 21px;
+    margin-left: 20px;
+    border-radius: 100px;
+    background-color: #545454;
+}
+
+.FoldButtonDetail {
+    background-color: white;
+    align-items: center;
+
+    padding: 4px 10px 4px 10px;
+    border-radius: 100px;
+}
+
+.StepInformationWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

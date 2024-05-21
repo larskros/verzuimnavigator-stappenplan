@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import FirstDayOfSickness from "./Components/SickEmployee/FirstDayOfSickness";
 import { StepIndicator } from "./Components/Roadmap/StepIndicator";
 import Footer from "./Components/Footer/Footer";
+import StepInformation from "./Components/Roadmap/StepInformation";
 
 
 export default function Home() {
@@ -20,7 +21,7 @@ export default function Home() {
           {/* Component for the standard procedure text */}
         </div>
       </div>
-      <div className="RoadmapContainer">
+      <div className={styles.RoadmapContainer}>
         <StepIndicator />
       </div>
       <Footer />
