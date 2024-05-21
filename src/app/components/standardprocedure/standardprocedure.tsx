@@ -1,5 +1,5 @@
 import React from 'react';
-import standardprocedure from './standardprocedure.module.css';
+import standardprocedure from './StandardProcedure.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 
@@ -31,28 +31,8 @@ export default function Standardprocedure() {
             <div className={standardprocedure.step_content}>De werkgever neemt contact op met de zieke werknemer om het verdere verloop van het ziekteverzuim te bespreken en eventuele vervolgstappen af te stemmen.</div>
           </div>
         </div>
-
-        {/* <div className={standardprocedure.ZiekeMedewerker}>
-          <h1>Standaardprocedure voor ziekmelding</h1>
-          <div className={standardprocedure.content}>
-            <h1 className={standardprocedure.numbers}>1</h1>
-            <p>U vult de eerste dag (datum) van ziekmelding in. Vanaf hier gaat het stappenplan lopen.</p>
-          </div>
-          <div className={standardprocedure.content}>
-            <h1 className={standardprocedure.numbers}>2</h1>
-            <p>De werkgever verstrekt de werknemer het nodige verzuimformulier of meldingsdocument en de werknemer vult deze in. <span><FontAwesomeIcon icon={faFileArrowDown} className={standardprocedure.FaIcons} />Download Verzuimformulier</span></p>
-
-          </div>
-          <div className={standardprocedure.content}>
-            <h1 className={standardprocedure.numbers}>3</h1>
-            <p>De werkgever registreert de ziekmelding in het verzuimregistratiesysteem. Indien nodig, wordt de bedrijfsarts of arbodienst geïnformeerd</p>
-          </div>
-          <div className={standardprocedure.content}>
-            <h1 className={standardprocedure.numbers}>4</h1>
-            <p>De werkgever neemt contact op met de zieke werknemer om het verdere verloop van het ziekteverzuim te bespreken en eventuele vervolgstappen af te stemmen.</p>
-
-          </div>
-        </div> */}
+        
+        {}
       </div>
     </>
   )

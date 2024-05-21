@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import navbar from "./components/navbar/navbar.module.css";
-import Navbar from "./components/navbar/navbar";
-import standardprocedure from "./components/standardprocedure/standardprocedure.module.css";
-import Standardprocedure from "./components/standardprocedure/standardprocedure";
-import Bulletpoints from "./components/bulletpoints/bulletpoints";
-import bulletpoints from "./components/bulletpoints/bulletpoints.module.css";
+import Navbar from "./Components/Navbar/Navbar";
+import standardprocedure from "./components/StandardProcedure/StandardProcedure.module.css";
+import Standardprocedure from "./Components/StandardProcedure/StandardProcedure";
+import Bulletpoints from "./Components/BulletPoints/BulletPoints";
+import bulletpoints from "./components/BulletPoints/BulletPoints.module.css";
 
 export default function Home() {
   return (
