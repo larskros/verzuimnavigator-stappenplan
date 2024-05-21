@@ -6,6 +6,7 @@ import Bulletpoints from "./Components/Bulletpoints/Bulletpoints";
 import FirstDayOfSickness from "./Components/SickEmployee/FirstDayOfSickness";
 import { StepIndicator } from "./Components/Roadmap/StepIndicator";
 import Footer from "./Components/Footer/Footer";
+import QuestionsSickLeave from "./Components/SickEmployee/QuestionsSickLeave";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <div className={styles.ContentSectionLeft}>
           <StandardProcedure />
           <FirstDayOfSickness />
+          <QuestionsSickLeave />
           {/* Component for questions about 'type verzuim' and 'standaard procedure doorlopen?' */}
         </div>
         <div className={styles.ContentSectionRight}>
