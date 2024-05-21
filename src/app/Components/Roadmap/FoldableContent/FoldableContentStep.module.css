@@ -1,0 +1,26 @@
+.StepItemContainer {
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.StepItemCheckbox {
+    width: 20px;
+    height: 20px;
+}
+
+.StepItemNumber {
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin: 0 14px 0 30px;
+}
+
+.StepItemText {
+    font-size: 16px;
+}
