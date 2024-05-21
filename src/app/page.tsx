@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Navbar from "./Components/Navbar/Navbar";
-import StandardProcedure from "./Components/StandardProcedure/StandardProcedure";
-import Bulletpoints from "./Components/BulletPoints/BulletPoints";
+import Navbar from "./Components/Navbars/Navbars";
+import StandardProcedure from "./Components/StandardProcedures/StandardProcedures";
+import Bulletpoints from "./Components/Bulletpointss/Bulletpointss";
 import FirstDayOfSickness from "./Components/SickEmployee/FirstDayOfSickness";
 import { StepIndicator } from "./Components/Roadmap/StepIndicator";
-import Footer from "./Components/Footer/Footer";
+import Footer from "./Components/Footers/Footers";
 
 
 export default function Home() {

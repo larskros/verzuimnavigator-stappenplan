@@ -1,5 +1,5 @@
 import React from 'react';
-import standardprocedure from './StandardProcedure.module.css';
+import standardprocedure from './StandardProcedures.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 

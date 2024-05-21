@@ -1,5 +1,5 @@
 import React from 'react'
-import bulletpoints from './BulletPoints.module.css'
+import bulletpoints from './Bulletpointss.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 
