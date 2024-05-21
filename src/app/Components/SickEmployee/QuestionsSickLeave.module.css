@@ -1,0 +1,45 @@
+.SickLeaveInputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.SicknessTypeContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ProcedureCheckContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.SicknessTypeTitle {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.SicknessTypeItems {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SicknessTypeItems p {
+    opacity: .5;
+}
+.SicknessTypeItems p:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.InfoIcon {
+    margin-bottom: 8px;
+}
+
+.SicknessTypeItems p.Active {
+    font-weight: 700;
+    opacity: 1;
+}

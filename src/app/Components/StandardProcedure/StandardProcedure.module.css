@@ -1,0 +1,37 @@
+.Container {
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: calc(100% - 30px);
+    height: 300px;
+    gap: 30px; */
+}
+
+.Titles {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.Titles h1 {
+    margin-bottom: 30px;
+}
+
+.FaIcons {
+    width: 10px;
+}
+
+.Titles p {
+    line-height: 165%;
+}
+
+@media screen and (max-width: 600px) {
+    .Container {
+            flex-direction: column;
+            width: 100%;
+    }
+    .main {
+        padding: 1rem;
+      }
+  }
+  

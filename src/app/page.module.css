@@ -6,7 +6,8 @@
 .ContentContainer {
     display: flex;
     width: calc(100% - 100px);
-    gap: 100px;
+    gap: 150px;
+    margin-top: 160px;
 }
 
 .ContentSectionLeft {
@@ -22,4 +23,11 @@
 
 .RoadmapContainer {
     display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+      padding: 2rem;
+      min-height: 60vh;
+    }
 }
