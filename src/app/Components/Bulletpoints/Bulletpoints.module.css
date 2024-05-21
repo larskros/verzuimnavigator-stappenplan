@@ -37,7 +37,7 @@
 
 .StepContent {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 165%;
 }
 
 .DownloadLink {
@@ -45,6 +45,6 @@
     margin-left: 5px;
     text-decoration: none;
     color: #000000;
-    font-weight: bold;
+    font-weight: 500;
     text-decoration: underline;
 }

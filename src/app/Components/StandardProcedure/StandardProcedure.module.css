@@ -1,10 +1,10 @@
 .Container {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
     width: calc(100% - 30px);
     height: 300px;
-    gap: 30px;
+    gap: 30px; */
 }
 
 .Titles {
@@ -13,13 +13,16 @@
     flex: 1;
 }
 
+.Titles h1 {
+    margin-bottom: 30px;
+}
+
 .FaIcons {
     width: 10px;
 }
 
 .Titles p {
-    padding-right: 40px;
-    padding-top: 25px;
+    line-height: 165%;
 }
 
 @media screen and (max-width: 600px) {

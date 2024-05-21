@@ -12,7 +12,7 @@ export default function FirstDayOfSickness() {
   const [startDate, setStartDate] = useState<Date | null>(null);
 
   return (
-    <>
+    <div>
       <p className={styles.DateInputLabel}>Wat is de eerste ziektedag?</p>
       <div className={styles.DateInput}>
         <DatePicker 
@@ -23,6 +23,6 @@ export default function FirstDayOfSickness() {
           <FontAwesomeIcon icon={faCalendar} />
         </div>
       </div>
-    </>
+    </div>
   )
 }
