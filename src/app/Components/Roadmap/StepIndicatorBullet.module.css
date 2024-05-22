@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 
 .StepIndicatorItem {
@@ -14,4 +15,15 @@
     width: 112px;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+.BarBottom {
+    /* position: absolute; */
+    width: 8px;
+    height: 100%;
+    background-color: #A7A7A7;
+    /* left: 50%;
+    top: 0;
+    transform: translate(-50%); */
 }

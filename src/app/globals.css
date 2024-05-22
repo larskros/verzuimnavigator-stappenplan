@@ -70,3 +70,7 @@ a {
 .ActiveStep {
   background-color: black !important;
 }
+
+.HideFoldOption {
+  display: none !important;
+}

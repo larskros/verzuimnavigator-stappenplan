@@ -1,0 +1,59 @@
+.FoldableContentStepContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 30px;
+}
+
+.StepItemText {
+    font-size: 16px;
+    margin: 32px 0;
+    line-height: 165%;
+    max-width: 75%;
+}
+
+.StepItemButtons {
+    display: flex;
+    gap: 32px;
+}
+
+.StepItemButtons button {
+    padding: 6px 16px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    background-color: black;
+    opacity: .5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.OutlineButton {
+    background-color: white !important;
+    color: black !important;
+    font-weight: 500;
+}
+.OutlineButton .ArrowIcon {
+    color: white;
+    background-color: black;
+}
+
+.ArrowIcon {
+    color: black;
+    background-color: white;
+    padding: 4px 12px;
+    border-radius: 12px;
+    margin-left: 16px;
+}
+
+.StepItemLink {
+    font-weight: 600;
+    margin-top: 32px;
+}
+
+.ArrowIconLink {
+    margin-left: 12px;
+}

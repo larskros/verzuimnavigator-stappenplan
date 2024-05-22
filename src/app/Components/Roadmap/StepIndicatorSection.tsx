@@ -17,7 +17,7 @@ export default function StepIndicatorSection() {
     
     <div className={Styles.StepIndicatorSectionWrapper}>
       <StepIndicatorBullet ClassName="ActiveStep" StepName="DAG 1" />
-      <StepInformation StepInfo="Standaard procedure ziekmelding"/>
+      <StepInformation StepInfo="Standaard procedure ziekmelding" ClassName={"HideFoldOption"}/>
     </div>
 
     <div className={Styles.StepIndicatorSectionLineWrapper}>
@@ -26,7 +26,7 @@ export default function StepIndicatorSection() {
 
     <div className={Styles.StepIndicatorSectionWrapper}>
       <StepIndicatorBullet ClassName="" StepName="WEEK 1" />
-      <StepInformation StepInfo="Kort verzuim"/>
+      <StepInformation StepInfo="Kort verzuim" ClassName={""}/>
     </div>
     </>
   )

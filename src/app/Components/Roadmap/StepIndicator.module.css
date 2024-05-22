@@ -11,3 +11,51 @@
     font-size: 60px;
     color: #A7A7A7;
 }
+
+.GridContainer {
+    width: 100%;
+    display: grid;
+    /* grid-template-columns: 9% [col-start] 68% [col-start] 23% [col-start]; */
+    grid-template-columns: 9% [col-start] 91% [col-start];
+    grid-template-rows: auto;
+    grid-template-areas:
+        "bar line"
+        "bullet information"
+    ;
+}
+
+.GridItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.GridBar {
+    grid-area: bar;
+}
+
+.GridBullet {
+    grid-area: bullet;
+}
+
+.GridInformation {
+    grid-area: information;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.GridLine {
+    grid-area: line;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.HorizontalLine {
+    height: 1px;
+    width: 100%;
+    background-color: #D3D3D3;
+}
