@@ -14,7 +14,7 @@ export default function Bulletpoints() {
           </div>
           <div className={styling.Step}>
             <div className={styling.StepNumber}>2</div>
-            <div className={styling.StepContent}>De werkgever verstrekt de werknemer het nodige verzuimformulier of meldingsdocument en de werknemer vult deze in. <a href="#" className={styling.DownloadLink}><FontAwesomeIcon icon={faFileArrowDown} className={styling.FaIcons} /> Download Verzuimformulier</a></div>
+            <div className={styling.StepContent}>De werkgever verstrekt de werknemer het nodige verzuimformulier of meldingsdocument en de werknemer vult deze in. <a href="./Verzuimformulier.pdf" target='_blank' className={styling.DownloadLink}><FontAwesomeIcon icon={faFileArrowDown} className={styling.FaIcons} /> Download Verzuimformulier</a></div>
           </div>
           <div className={styling.Step}>
             <div className={styling.StepNumber}>3</div>
