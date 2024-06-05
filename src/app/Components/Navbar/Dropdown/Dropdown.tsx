@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 
-const dropdown = (props: { MenuTitle: string; MenuItem1: string; MenuItem2: string; MenuItem3: string; }) => {
+const Dropdown = (props: { MenuTitle: string; MenuItem1: string; MenuItem2: string; MenuItem3: string; }) => {
 
     // Function to toggle the visibility of the dropdown menu with a hover effect
     const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -36,4 +36,4 @@ const dropdown = (props: { MenuTitle: string; MenuItem1: string; MenuItem2: stri
   )
 }
 
-export default dropdown
+export default Dropdown
